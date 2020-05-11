@@ -6,3 +6,6 @@
 #
 print("Happy Birthday to you!")
 print("Haaaappy Biiirthday dear felloooow")
+a = 17
+b = 13
+c = a - b
