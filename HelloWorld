@@ -1,4 +1,7 @@
 #
 # Hello World Very First Script!
 #
+z = 4
+l = 1
+m = z - l
 print("Hello World!")
