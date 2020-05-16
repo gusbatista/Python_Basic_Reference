@@ -24,7 +24,7 @@ anotherCharacterOfMyQuestion =  myQuestion[7]
 #
 myAnswearSize = len(myAnswear)
 #print(myAnswearSize)
-
+ 
 #
 # Converter variavel Nao String em String
 #
