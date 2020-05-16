@@ -39,6 +39,7 @@ brandNewString = "Carol tem " + str(x) + " anos" # Carol tem 8 anos
 # Metodos Uppercase and Lowercase
 # Obs: metodos sao funcoes built in especificas para Strings
 #
+
 anotherString = "Eita Lele, sai pra la!"
 #print(anotherString.lower())
 #print(anotherString.upper())
