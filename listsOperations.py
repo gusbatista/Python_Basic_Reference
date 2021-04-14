@@ -35,16 +35,21 @@ carros = ['Uno','Palio','Bravo','Punto']
 # Checando se ha elemento na lista com "in"
 #
 carros     = ['Uno','Palio','Bravo','Punto']
-UnoIsThere     = 0
-PeugeotIsThere = 0
+
 if "Uno" in carros:
-    UnoIsThere = 1
     print("Uno is on the list =-)")
 else:
     print("Uno nao esta la =-()")
 if "Peugeot" in carros:
-    UnoIsThere = 1
     print("Peugeot is on the list")
 else:
     print("Peugeot nao esta la =-()")  # Uno is on the list =-)
                                        # Peugeot nao esta la =-(
+
+#
+# Invertendo lista
+#
+carros     = ['Uno','Palio','Bravo','Punto']
+carros.reverse()
+print(carros)
+# Prints: ['Punto', 'Bravo', 'Palio', 'Uno']

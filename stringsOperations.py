@@ -10,7 +10,17 @@ myAnswear  = "Comigo tudo ok!"
 
 mergedString = myQuestion + " " + myAnswear
 #print(mergedString)
+#
 
+#
+# O Metodo .format() permite inserir placeholders na string
+# de forma mais elegante
+#
+
+mergedStringEx1 = "{quest} {answ}".format(quest = "Tudo ok?", answ = "Belezinha")
+mergedStringEx2 = "Tudo bem? {}".format("Claro que sim!!")
+#print(mergedStringEx1)   # Tudo ok? Belezinha
+#print(mergedStringEx2)   # Tudo bem? Claro que sim!!
 #
 # Obter Caracter de Strings
 #
@@ -24,7 +34,7 @@ anotherCharacterOfMyQuestion =  myQuestion[7]
 #
 myAnswearSize = len(myAnswear)
 #print(myAnswearSize)
- 
+
 #
 # Converter variavel Nao String em String
 #
